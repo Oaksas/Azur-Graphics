@@ -18,4 +18,4 @@ Instruction Set
  
 
 The Sebastopol Cannon is a historical  model for the heritage found in Meqdela. It was made during the reign of Emperor Tewodrow II.
-It was used to fire only once and failed. We chose this national heritage because it shows our position during that time.
+It was used to fire only once and failed. I love this national heritage because it shows our position during that time.
