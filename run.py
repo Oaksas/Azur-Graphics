@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# Basic OBJ file viewer. needs objloader from:
-#  http://www.pygame.org/wiki/OBJFileLoader
-# LMB + move: rotate
-# RMB + move: pan
-# Scroll wheel: zoom in/out
+
 import sys, pygame
 from pygame.locals import *
 from pygame.constants import *
