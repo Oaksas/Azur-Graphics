@@ -1,17 +1,5 @@
-                             SEBASTOPOL CANNON MODEL
-
-
-
-
-GROUP MEMBERS                       ID
-
-
-1. Woldeamanual Getnet              ATR/9803/11
-2. Abenezer Fekadu                  ATR/7730/11
-3. Biruk Ayalew                     ATR/4451/11 
-4. Tolosa Mitiku                    ATR/4992/11
-5. Mekdes Bishaw                    ATR/6446/11
-6. Yonas Assefa                     ATR/2005/11
+                             SEBASTOPOL CANNON MODEL 
+                             Developer - Woldeamanual Getnet
 
 
 Instruction Set
