@@ -5,7 +5,7 @@ from pygame.constants import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
-# IMPORT OBJECT LOADER
+
 from objloader3 import *
 
 pygame.init()
@@ -28,22 +28,17 @@ specref = (1.0, 1.0, 1.0, 1.0)
 glColorMaterial(GL_FRONT, GL_AMBIENT_AND_DIFFUSE)
 glMaterialfv(GL_FRONT, GL_SPECULAR, specref)
 glMateriali(GL_FRONT, GL_SHININESS, 128)
-glShadeModel(GL_SMOOTH)           # most obj files expect to be smooth-shaded
-
-# LOAD OBJECT AFTER PYGAME INIT
+glShadeModel(GL_SMOOTH)        
 objBall = OBJ('ballVM.obj', swapyz=False)
 
 objCannon = OBJ('cannonVM.obj', swapyz=False)
 objWheel = OBJ('walllVM.obj', swapyz=False)
-##objFloor = OBJ('plane.obj', swapyz=False)
-##objFire = OBJ('fire.obj', swapyz=False)
-##
+
 
 objCannon.generate()
 objBall.generate()
 objWheel.generate()
-##objFloor.generate()
-##objFire.generate()
+
 
 
 
@@ -124,16 +119,10 @@ while running:
     glRotate(ry, 1, 0, 0)
     glRotate(rx, 0, 1, 0)
     objCannon.render()
-##    objFloor.render()
     objWheel.render()
     objBall.render()
 
-
     glLightfv(GL_LIGHT0, GL_POSITION, lightPos)
-
-
-##    objFire.render()
-
 
     
     pygame.display.flip()
